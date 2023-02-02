@@ -1,0 +1,658 @@
+
+
+body{
+     background-color: aliceblue !important;
+}
+
+.nav-logo{
+     width: 60px;
+     margin-right: 10px;
+}
+.nav-brand-span{
+     color: #fc0404;
+     font-size: larger;
+}
+
+.navbar-brand{
+     font-family: 'Rubik Wet Paint', cursive;
+     font-style: italic;
+     font-size: 30px !important;
+}
+
+
+
+.slider-section{
+     background: url(/img/bc.jpg) no-repeat center center;
+     background-blend-mode: darken;
+     padding: 200px 0;
+     position: relative;
+     z-index: 1;
+    
+}
+
+.slider-section::after{
+     content: "";
+     height: 100%;
+     width: 100%;
+     position: absolute;
+     top: 0;
+     left: 0;
+     background: rgba(0, 0, 0, 0.6);
+     z-index: -1;
+}
+
+
+
+.slider-caption input{
+     width: 260px;
+     height: 60px;
+     border: none;
+     margin-top: 60px;
+     padding-left: 15px;
+     border-radius: 10px;
+}
+
+.slider-caption{
+     font-family: 'PT Serif', serif;
+
+}
+
+.slider-caption input:focus{
+     outline: none;
+}
+
+.slider-caption form a{
+     font-size: 30px;
+     font-weight: bold;
+     color: white;
+     margin-left: 5px;
+     margin-top: -3px;
+     border-radius: 10px;
+     background: transparent;
+     border-color: white ;
+}
+
+.number-counter{
+     background-color: white;
+     padding: 40px 0;
+     
+}
+
+.number-counter p{
+     color: dimgray;
+     font-family:serif;
+
+}
+.number-counter h2{
+     font-weight: bold;
+     font-family: serif;
+} 
+
+
+
+.about-section img{
+     width: 300px;
+     text-align: center;
+     border: 4px solid red;
+
+     padding: 40px 40px 0 40px;
+       padding-top: 40px;
+       padding-right: 40px;
+       padding-bottom: 0px;
+       padding-left: 40px;
+     border-radius: 132px 127px 22px 22px;
+     border-right: none;
+     border-left: none;
+}
+
+.about-text p{
+     margin-top: 40px;
+     line-height: 2.5rem;
+     letter-spacing: 1px;
+     font-size: 20px;
+     font-family: serif;
+  
+}
+
+.about-section{
+     margin-top: 30px;
+}
+
+.about-text h4{
+     font-style: italic;
+     letter-spacing: 2px;
+     font-weight: bold;
+     font-family: serif;
+
+}
+
+.about-text{
+     padding-top: 90px;
+}
+
+.review-items-img img{
+     width: 150px;
+}
+
+ 
+ .reviews{
+     background-color: rgb(246, 251, 255) ;
+     margin-top: 70px;
+}
+
+
+.our-reviews{
+     font-family: 'Rubik Wet Paint', cursive;
+     display: flex;
+     justify-content: center;
+}
+
+.our-reviews h2{
+     display: inline-block;
+border: 5px solid #0780bb;
+padding: 5px 40px 5px 40px;
+border-left: none;
+border-right: none;
+border-radius: 13px;
+}
+
+
+
+
+
+.review-items-text h4{
+     text-align: center;
+     font-family: 'Rubik Wet Paint', cursive;
+}
+
+.review-items-text p{
+     text-align: center;
+     font-family: serif;
+     font-style: italic;
+}
+
+.review-items-text a{
+     margin-left: 10px;
+     text-decoration: none;
+
+}
+.review-items-text a:hover{
+     text-decoration: underline;
+}
+
+.review-items-text{
+     margin-top: 40px;
+    padding: 0px 30px;
+}
+
+.review-items{
+     margin-top: 40px;
+     background-color: white;
+     border-radius: 5px;
+     box-shadow: 10px 1px 0px #40739e;
+}
+
+
+
+
+
+
+.Our-Information{
+     margin-bottom: 40px;
+}
+
+.Our-Information h2{
+     margin: 80px 0;
+     font-family: 'Rubik Wet Paint', cursive;
+
+
+}
+
+
+
+
+
+.Our-Information img{
+     width: 300px;
+     height: 200px;
+   
+border: 4px solid #3b97c4;
+border-top: none;
+border-bottom: none;
+border-radius: 60px;
+
+ 
+
+}
+.text-item{
+     width: 40%;
+     text-align: center;
+
+
+
+     
+}
+
+.text-item div{
+     margin: auto;
+}
+
+.letest-work{
+   display: flex;
+     background-color: rgba(255, 255, 255, 0.7);
+
+
+}
+
+.works{
+     display: flex;
+     width: 50%;
+     box-sizing: border-box;
+
+
+}
+
+.works img{
+     padding: 0 !important;
+     margin: 20px;
+     border-left-color: #e97910;
+     border-right-color: rgb(65, 167, 6,0.7);
+
+     width: 250px;
+     height: 180px;
+
+}
+
+
+.letest-work h2{
+     font-family: 'Rubik Wet Paint', cursive;
+     /* position: absolute;
+     left: 15%;
+     top: 50%; */
+}
+
+.idea{
+     width: 20%;
+
+}
+
+
+.contact-form h1{
+     text-align: center;
+     
+}
+
+
+.contact-form-main {
+     background-color: rgb(255, 255, 255);
+     margin-top: 40px;
+}
+
+.contact-form{
+     display: flex;
+     justify-content: space-between;
+     padding-top: 30px;
+}
+ 
+
+.contact-form img{
+     width: 530px;
+}
+
+.contact-form textarea{
+     width:682px ;
+     height: 30px;
+     border: none;
+     border: 1px solid dimgray;
+     margin-top: 20px;
+     border-right: none;
+     border-left: none;
+     border-bottom: none;
+     border-radius: 20px;
+     padding-left: 20px;
+     color: dimgray;
+}
+
+.contact-form form input{
+     width: 682px;
+     height: 47px;
+     border: transparent;
+     border: none;
+     border: 1px solid dimgray;
+     margin-top: 20px;
+     border-right: none;
+     border-left: none;
+     border-radius: 20px;
+     border-bottom: none;
+     padding-left: 20px;
+   
+}
+
+.contact-form form input:focus{
+     outline: none;
+}
+
+.contact-form form textarea:focus{
+     outline: none;
+}
+
+
+.send-message{
+     text-align: center;
+     width: 120px !important;
+     padding: 0 !important;
+     background: transparent;
+     color: dimgray;
+     font-size: smaller;
+     border-top:none !important ;
+     border-bottom: 2px solid dimgray !important;
+     margin-bottom: 30px;
+    
+ 
+}
+
+.contact-form form{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+
+.contact-form .submit{
+     display: flex;
+     justify-content: center;
+     
+}
+
+.contact-form .send-message:hover{
+     border-top: 2px solid rgb(0, 0, 0) !important;
+     box-shadow: 1px 1px 2px;
+
+
+}
+
+
+
+
+.footer{
+     background: rgba(0, 0, 0, 0.3) url(/img/footer.jpg);
+     background-blend-mode: darken;
+     height: 420px;
+     font-family:serif;
+     position: relative;
+     margin-top: 50px;
+   
+}
+
+.workplace img{
+     text-align: center;
+}
+
+.workplace{
+     color: white;
+     display: flex;
+     justify-content: space-evenly;
+     text-align: center;
+     padding-top: 100px;
+}
+
+.facebook img {
+     width: 87px;
+     border: 4px solid white;
+     border-radius: 50%;
+     padding: 5px;
+}
+
+
+     .order img{
+          width: 50px;
+          border: 4px solid white;
+          border-radius: 33%;
+          padding: 12px;
+          display: flex;
+          text-align: center;
+     }
+    
+
+   
+
+
+     .comtact-me{
+          
+          display: flex;
+          justify-content: space-around;
+          margin-top: 110px;
+          
+          
+          
+     }
+
+     /* .comtact-me .img{
+          text-align: center;
+     } */
+
+     .comtact-me a{
+          text-decoration: none;
+          color: white;
+          font-family: serif;
+          
+     }
+
+     .mine-img{
+          display: flex;
+          justify-content: center;
+     }
+     /* .call img{
+          width: 50px;
+          border: 4px solid white;
+          border-radius: 33%;
+          padding: 12px;
+     } */
+/*  Portolio Hover Css  */
+/* 
+.info-item a{
+     position: relative;
+     display: block;
+}
+.info-item a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(98, 120, 223,.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+
+.info-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+ */
+
+
+ /* .info-item a::after{
+     content: '';
+     width: 100%;
+     
+ } */
+
+/* 
+ .info-item a{
+     text-align: center;
+ } */
+ .info-item {
+
+     display: flex;
+     justify-content: center;
+   }
+
+   .info-item img{
+     padding:20px;
+     
+   }
+
+   @media screen and (max-width : 768px){
+     .workplace img {
+          text-align: center;
+          width: 45px;
+        }
+
+        .workplace p{
+          font-size: smaller;
+        }
+        .contact-form form input {
+          width: 518px;
+          height: 44px;
+        }
+        .contact-form textarea {
+          width: 522px;
+          height: 30px;
+        }
+}
+
+
+
+
+@media screen and (max-width:577px) {
+     .number-row{
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         text-align: center;
+     
+     }
+
+     .workplace img {
+          text-align: center;
+          width: 30px;
+        }
+        .workplace p{
+          font-size: 11px;
+        }
+
+     .mine-img{
+          display: flex;
+          justify-content: center;
+     }
+
+     .text-item{
+          width: 0%;
+     
+     
+          
+     }
+
+     .works img{
+          width: 350px !important;
+          height: 215px !important;
+        }
+
+
+        .works{
+          width: 100% !important;
+          
+     
+     
+     }
+
+
+     .Our-Information img {
+          width: 366px;
+          height: 250px;
+          
+        }
+
+
+.about-text h4{
+     text-align: center;
+}
+.about-text p{
+     text-align: center;
+}
+
+.slider-caption form a{
+     margin-top: 10px;
+}
+
+.info-item a{
+     text-align: center;
+     margin-top: 20px;
+}
+
+.info-item {
+     align-items: center;
+}
+
+.contact-form form input {
+     width: 352px;
+     height: 40px;
+   }
+.contact-form form textarea {
+     width: 352px;
+     height: 40px;
+   }
+
+
+   .contact-form img {
+     width: 360px;
+   }
+
+ }
+
+
+
+
+
+
+ @media screen and (max-width:991px){
+     .letest-work .text-item{
+          width: 100%;
+     }
+     .works img{
+          width: 220px;
+          height: 170px;
+     
+     }
+
+     .mine-img{
+          display: flex;
+          justify-content: center;
+     }
+
+     .works{
+          width: 100%;
+     }
+
+     .letest-work {
+          flex-direction: column;
+     }
+
+     .letest-work .text-item .works{
+          width: 100%;
+     }
+
+ }
+
+
+ @media screen and (min-width:991px){
+     .text-item div{
+          padding-top: 25%;
+     }
+ }
+
+ @media screen and (max-width:1201px){
+     .contact-form{
+          flex-direction: column-reverse;
+          
+     }
+     .feedback{
+          margin: auto;
+     }
+
+     .contact-form-main .form{
+          margin: auto;
+     }
+ }
+ 
