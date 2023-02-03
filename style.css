@@ -20,6 +20,43 @@ body{
 }
 
 
+.Search{
+     display: flex;justify-content: center;
+}
+.Search input{
+     width: 412px;
+height: 38px;
+padding-left: 10px;
+background: transparent;
+border: none;
+border: ipx solid dimgray;
+border: 1px solid dimgray;
+border-radius: 5px;
+
+}
+
+.navbar-toggler{
+     border: none !important;
+     
+}
+.navbar-toggler-icon:focus{
+     outline: none !important;
+     border: none !important;
+     
+}
+.navbar-toggler-icon{
+     width: 1em !important;
+     height: 1em !important;
+}
+.Search input:focus{
+     outline: none;
+}
+
+.navbar-collapse a{
+     text-align: center;
+}
+
+
 
 .slider-section{
      background: url(/img/bc.jpg) no-repeat center center;
@@ -524,6 +561,10 @@ border-radius: 60px;
      
      }
 
+     .Search input{
+          width: 310px;
+     }
+
      .workplace img {
           text-align: center;
           width: 30px;
@@ -655,4 +696,5 @@ border-radius: 60px;
           margin: auto;
      }
  }
+ 
  
